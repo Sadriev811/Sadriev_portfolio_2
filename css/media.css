@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+        
+    }
+    
+}
+@media (max-width: 992px) {
+    .third .boxs .box {
+        display: block;
+        margin-bottom: 30px;
+      }
+      .third .boxs .box .item {
+        margin-bottom: 30px;
+      }
+}
+@media (max-width: 768px) {
+    .first .instand .block2 {
+        display: none;
+    }
+    .first .instand  {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header .header_txt .navbar {
+        display: none;
+    }
+    .header .header_txt .menu  {
+        display: flex;
+
+    }
+
+}
+@media(max-width:576px) {
+    .first .instand .block1 h3 {
+        font-size: 40px;
+    }
+    .first .instand .block1 p {
+        font-size: 20px;
+    }
+}
+@media(max-width:360px) {
+    .header .header_txt .logo {
+        display: none;
+    }
+    .four .four_box h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .third .boxs .box .item {
+        width: 250px;
+        height: 300px;
+
+    }
+}

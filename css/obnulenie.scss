@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+$green: #31C5A1;
+$violet: #582EFF;
+
+
+@mixin flex ($d, $j, $a) {
+    display: $d;
+    justify-content: $j;
+    align-items: $a;
+}
